@@ -1,0 +1,503 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+        font-family: arial;
+        background-image: url(https://wallpaperaccess.com/full/3204572.jpg);
+        width: auto;
+        height: auto;
+
+
+    }
+    
+    #divLogin
+    .container{
+     
+        border-radius: 12px;
+        margin: 10%;
+        width: auto;
+        height: auto;
+       
+        background: #525252;
+        margin-top: 130px;
+        box-shadow: 0px 10px 500px #000;
+        padding: 20px 40px;
+        border-top: 4px solid #017bab;
+        color: rgb(196, 221, 237);
+    
+    }
+    #divLogin
+    .container h2{
+        
+        padding: auto;
+        margin: auto;
+    }
+    
+    .controls{
+        border-radius: 5px;
+        width:100%;
+        border: 1px solid #017bab;
+        margin-bottom: 15px;
+        padding: 11px 10px;
+        font-size:14px;
+        font-weight: bold;
+    }
+
+  
+    .buttontype1{
+        transition: 0.5s;
+        width: 150px;
+        height: 40px;
+        background: #017bab;
+        border: none;
+        color: rgb(20, 68, 89);
+        margin-bottom: 16px;
+        justify-content:  center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border-radius: 10px;
+    }
+
+    .buttontype1:hover{
+        background-color: rgb(255, 255, 255);
+    }
+    .container p{
+        height: 40px;
+        text-align: center;
+        border-bottom: 1px solid;
+    
+    }
+    
+    .container a{
+        color: rgb(174, 134, 163);
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .container a:hover{
+        text-decoration: underline;
+    }
+
+    /*SECCION DE LA PAGINA PRINCIPAL*/
+    .icono {
+        background-color: rgb(118, 118, 118);
+        font-size: 24px;
+        width: auto;
+        height: auto;
+        color: rgb(255, 255, 255);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        display: inline-block;
+        padding: 10px;
+        text-decoration: none;
+      }
+      
+      .icono:hover {
+        transition: 1s;
+        background-color: #333;
+      }    .EncabezadoPrincipal {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+
+    }
+    
+    .funcsuper {
+        background-color: rgb(255, 255, 255);
+        width: auto;
+        height: auto;
+
+    }
+
+
+
+    .miFooter {
+        background-color: aliceblue;
+    }
+   
+    /*BARRA LATERAL-------------------------------------------------------------*/
+    .completo {
+        margin-left: 15%;
+        margin-right: 15%;
+        height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+    }
+
+    .sidebar {
+        align-items: center;
+        text-align: center;
+        width: 20%;
+        height: auto;
+
+        height: 100%;
+        background-color: #86bae7;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        
+    }
+
+    .dashboard {
+        width: 70%;
+        height: auto;
+        padding: 20px;
+        height: 100%;
+        background-color: #e6e6e6;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 48px;
+    }
+
+    /*SECCION DE PUBLICACIONES -------------------------------------------------*/
+    .PostContainer {
+        display: block;
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+        margin: 10px;
+
+    }
+    .post {
+        width: auto;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    }
+
+    .post-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .post-header img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .post-header h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .post-content {
+        font-size: 18px;
+        line-height: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .post-footer {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: gray;
+    }
+
+    .post-footer span {
+        margin-right: 10px;
+    }
+    
+    .post-footer img {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+    
+    .post-footer a {
+        margin: 10px;
+        color: gray;
+        text-decoration:none; 
+    }
+    
+    .post-footer a:hover {
+        text-decoration:none; 
+        color:#91d4fc;  
+    }
+    
+    .post-footer a i{
+        margin-right:5px; 
+    }
+    
+    .post-footer a:hover i{
+        color:#91d4fc;  
+    }
+    
+    .post-footer a span{
+        margin-left:auto; 
+    }
+    
+    .post-footer a:hover span{
+        color:#91d4fc;  
+    }
+    
+    .post-footer a img{
+        width:auto; 
+        height:auto; 
+        max-height:20px; 
+        max-width:20px; 
+        margin-right:5px; 
+    }
+
+    /*SECCION DE PERFIL---------------------------------------------------------*/
+    .Profilecontainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .profile {
+        width: 600px;
+        background-color: #f2f2f2;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    }
+
+    .profile-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .profile-header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    }
+
+    .profile-header h1 {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    .profile-header h2 {
+        font-size: 24px; 
+        margin-top:5px; 
+        margin-bottom:10px; 
+        color:#91d4fc; 
+    }
+    
+    .profile-header p{
+        font-size:18px; 
+        margin-top:-5px; 
+        margin-bottom:-5px; 
+        color:#666; 
+    }
+    
+    .profile-header span{
+        font-size:14px; 
+        color:#999; 
+    }
+    
+    .profile-header button{
+        background-color:#91d4fc; 
+        color:white; 
+        border:none; 
+        padding:10px 20px; 
+        border-radius:5px; 
+        font-size:16px; 
+        cursor:pointer; 
+    }
+    
+    .profile-header button:hover{
+        background-color:#007acc;  
+    }
+
+    .profile-body{
+        display:flex; 
+        flex-wrap:wrap; 
+    }
+    
+    .profile-body div{
+        flex-basis:calc(33.33% - 20px);  
+        margin-right:20px;  
+        margin-bottom:20px;  
+    }
+    
+    .profile-body div:last-child{
+        margin-right:0;  
+    }
+    
+    .profile-body h3{
+        font-size:24px;  
+        margin-top:-5px;  
+    }
+    
+    .profile-body p{
+        font-size:18px;  
+        margin-top:-5px;  
+    }
+
+    /*SECCION DE LOS POST*/
+
+    .formatoPost {
+        width: 50%;        
+        flex-direction: column;
+        background-color: rgb(30, 31, 98);
+        border-radius: 0%;
+        padding: 20px;
+        color: aliceblue;
+    }
+    .inputPost[type="text"], textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 500px;
+    }
+    .inputPost[type="file"] {
+        margin-bottom: 10px;
+    }
+    .Post_Button {
+        transition: 0.5s;
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #91d4fc;
+        color: white;
+        border: none;
+        cursor:pointer
+        }
+    .Post_Button:hover {
+        background-color:#d7e8f4
+        }
+    .post_Button_edit {
+        margin-left: auto;
+        transition: 0.5s;
+        margin-top: 20px;
+        margin-right: 10px;
+        padding: 10px 20px;
+        background-color: #91d4fc;
+        color: white;
+        border: none;
+        cursor:pointer
+
+    } 
+.post_Button_edit:hover{
+    background-color:#d7e8f4
+
+}
+    .EncabezadoPrincipal {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        background-color: #333;
+        color: white;
+      }
+      .Separador {
+        margin-right: 10px;
+        color: white;
+        text-decoration: none;
+      }
+      .Separador:hover {
+        text-decoration: underline;
+      }
+/*    -------------------------------------------*/
+/*    
+pagina inicio*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#formBuscarPublicacion {
+    margin-bottom: 20px;
+}
+
+.inputTitulo {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btnBuscar {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+}
+
+.pagination li.active a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
